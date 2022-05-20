@@ -1,0 +1,10 @@
+Watching for file changes with StatReloader
+Init client with profile=/home/user/fabric/fabric-sdk-py/test/fixtures/network.json
+create org with name=orderer.example.com
+create org with name=org1.example.com
+create org with name=org2.example.com
+create ca with name=ca-org1
+create ca with name=ca-org2
+Import orderers = dict_keys(['orderer.example.com'])
+Import peers = dict_keys(['peer0.org1.example.com', 'peer1.org1.example.com', 'peer0.org2.example.com', 'peer1.org2.example.com'])
+New channel with name = businesschannel
